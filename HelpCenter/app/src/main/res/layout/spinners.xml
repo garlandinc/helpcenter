@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:text="@string/select_division"
+        style="@style/text_style"
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:id="@+id/division_spinner"
+        android:layout_marginTop="5sp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:text="@string/select_district"
+        style="@style/text_style"
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:id="@+id/district_spinner"
+        android:layout_marginTop="5sp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

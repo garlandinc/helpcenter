@@ -1,0 +1,109 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10sp"
+        android:visibility="gone"
+        android:layout_marginBottom="10sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+        <Spinner
+            android:layout_width="wrap_content"
+            android:id="@+id/spinner_unit"
+            android:layout_weight="2"
+            android:layout_height="match_parent">
+        </Spinner>
+        <LinearLayout
+            android:layout_width="0sp"
+            android:orientation="horizontal"
+            android:layout_weight="9"
+            android:background="@drawable/border"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="D"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:id="@+id/unit_text"
+                android:textColor="@color/black"
+                />
+            <EditText
+                android:layout_width="0sp"
+                android:background="@drawable/border"
+                android:id="@+id/input_roll"
+                android:padding="10sp"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"
+                android:imeOptions="actionSearch"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ImageButton
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginLeft="5sp"
+            android:id="@+id/button"
+            android:src="@drawable/ic_search_black_24dp"
+            android:background="@drawable/search_button"
+            android:layout_marginRight="5sp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@id/linearLayout"
+        android:layout_height="180sp"
+        android:visibility="gone"
+        android:id="@+id/relative_lay">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:padding="10sp"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10sp"
+                android:textSize="20sp"
+                android:id="@+id/output_text"
+                android:textColor="@color/black"
+                android:background="@drawable/border"
+                android:layout_marginBottom="30sp"
+                android:layout_height="wrap_content" />
+        </ScrollView>
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="30sp"
+            app:rippleColor="@color/white_shad"
+            app:fabSize="mini"
+            android:clickable="true"
+            android:id="@+id/fab_out"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_close_black_24dp"
+            android:layout_height="30sp" />
+    </RelativeLayout>
+    <fragment
+        android:layout_width="match_parent"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relative_lay" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:background="@color/white_shad"
+        android:clickable="true"
+        android:src="@drawable/ic_search_black_24dp"
+        app:fabSize="normal"
+        app:rippleColor="@color/white_shad"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="32dp" />
+
+</RelativeLayout>

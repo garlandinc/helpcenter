@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:maxLines="1"
+        android:lines="1"
+        android:singleLine="true"
+        android:hint="Enter The Message"
+        android:id="@+id/id_inline_input"
+        android:background="@drawable/border"
+        android:padding="10sp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_inline_button"
+        android:background="@drawable/button"
+        android:text="Post"
+        android:layout_marginLeft="3sp"
+        android:textAllCaps="false"
+        android:textColor="@color/white_shad"
+        />
+</LinearLayout>

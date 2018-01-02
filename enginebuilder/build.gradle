@@ -1,0 +1,12 @@
+apply plugin: "java"
+
+sourceSets {
+	main {
+		java.srcDir "src/mani/java"
+		output.resourcesDir "build/classes/java/main/resources"
+	}
+}
+
+compileJava {
+	sourceCompatibility "1.7"
+}

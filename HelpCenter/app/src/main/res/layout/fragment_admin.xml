@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="25sp"
+            android:padding="10sp"
+            android:layout_marginBottom="35sp"
+            android:background="@drawable/border"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/border"
+                android:padding="10sp"
+                android:layout_height="wrap_content">
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:id="@+id/id_admin_title_spinner"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content">
+                </Spinner>
+                <EditText
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/id_admin_title"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:lines="1"
+                    android:singleLine="true"
+                    android:hint="Select Title of The Message"
+                    android:background="@drawable/border"
+                    android:padding="10sp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/border"
+                android:padding="10sp"
+                android:layout_marginTop="10sp"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:lines="1"
+                    android:singleLine="true"
+                    android:hint="Enter The Message"
+                    android:id="@+id/id_admin_msg"
+                    android:background="@drawable/border"
+                    android:padding="10sp"
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/id_admin_msg_post"
+                    android:background="@drawable/button"
+                    android:text="Post"
+                    android:layout_marginLeft="3sp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white_shad"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="15sp"
+                android:orientation="vertical"
+                android:background="@drawable/border"
+                android:padding="10sp"
+                android:layout_height="wrap_content">
+                <include layout="@layout/spinners"/>
+                <include layout="@layout/inline_input"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="15sp"
+                android:orientation="vertical"
+                android:background="@drawable/border"
+                android:padding="10sp"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:lines="1"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"
+                    android:hint="Enter The Command Path"
+                    android:id="@+id/id_admin_cmd_path"
+                    android:background="@drawable/border"
+                    android:padding="10sp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:layout_marginTop="10sp"
+                    android:lines="1"
+                    android:imeOptions="actionDone"
+                    android:singleLine="true"
+                    android:hint="Enter The Command Value"
+                    android:id="@+id/id_admin_cmd_val"
+                    android:background="@drawable/border"
+                    android:padding="10sp"/>
+            </LinearLayout>
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

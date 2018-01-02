@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="6sp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Current Informations"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:textSize="33sp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/id_title1"
+                android:text="Title One"
+                android:layout_marginTop="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:textSize="22sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/message1"
+                android:text="message One"
+                android:padding="16sp"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/border"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/id_title2"
+                android:text="Title Two"
+                android:layout_marginTop="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:textSize="22sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/message2"
+                android:padding="16sp"
+                android:text="message Two"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/border"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/id_title3"
+                android:text="Title Three"
+                android:layout_marginTop="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:textSize="22sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/message3"
+                android:padding="16sp"
+                android:text="message Three"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/border"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:id="@+id/title"
+                android:text="Exam Schedule 2017"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:textSize="17sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16sp"
+                android:id="@+id/message"
+                android:text="@string/unit_sch"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/border"
+                android:textSize="18sp"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

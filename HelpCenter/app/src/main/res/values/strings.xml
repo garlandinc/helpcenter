@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">HelpCenter</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="your_mail_id">E-Mail Address</string>
+    <string name="password">Password</string>
+    <string name="your_message">Enter your Message</string>
+    <string name="text">For security reason,keep away from bad person and real-time student welfare of your Association, you have proof to me that you are from this Association,then I activated your Association for you.   To Activate your Association create an account at first then send your details to my email:khirulbasherbsmrstu@gmail.com or send me an sms or call to:+8801771800694</string>
+    <string name="search_my_roll_no">Search My Roll No</string>
+    <string name="recent_activities">Recent Activities</string>
+    <string name="account_activity">Association LogIn</string>
+    <string name="create_account">Activate Association</string>
+    <string name="applicant_s_help">Applicant\'s Help</string>
+    <string name="applicant_s_register">Applicant\'s Register</string>
+    <string name="applicant_s_account">Applicant\'s Account</string>
+    <string name="your_e_mail_address">Your E-Mail Address</string>
+    <string name="log_in">Log In</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="create_an_account_for_association">Create an Account for Association</string>
+    <string name="select_division">Select Division</string>
+    <string name="select_district">Select District</string>
+    <string name="name">Name</string>
+    <string name="phone_number_1">Phone Number 1</string>
+    <string name="phone_number_2">Phone Number 2</string>
+    <string name="msg_txt">Enter a Text Message for Your Association Here...</string>
+    <string name="u_msg">Update Message</string>
+    <string name="exam_schedule_2017">Exam Schedule 2017</string>
+    <string name="unit_sch">\n Unit D: 10.11.2017  \n\n Unit E: 10.11.2017  \n\n Unit F: 11.11.2017  \n\n Unit G: 11.11.2017  \n\n Unit A: 17.11.2017  \n\n Unit B: 17.11.2017  \n\n Unit C: 18.11.2017  \n\n Unit H: 18.11.2017</string>
+    <string name="ass">My District\'s Association</string>
+    <string name="exit_app">Exit App</string>
+    <string name="title_activity_maps">Find My Center</string>
+    <string name="inf">Developed By: \nKhairul Bashar Lemon\nDept. Of Statistics,bsmrstu</string>
+    <string name="mail">E-Mail:khirulbasherbsmrstu@gmail.com</string>
+</resources>
